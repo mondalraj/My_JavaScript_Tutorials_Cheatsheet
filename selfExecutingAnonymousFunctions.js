@@ -1,6 +1,6 @@
 //Also known as IIFE
 
-//Functions which executes imediately after their declaration.
+//Functions which executes immediately after their declaration.
 
 (function () {
     console.log("say hello");
