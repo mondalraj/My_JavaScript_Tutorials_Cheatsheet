@@ -1,0 +1,5 @@
+fetch("https://randomuser.me/api/")
+    .then((response) => { return response.json() })
+    .then((data) => console.log(data.results[0].name))
+    // .catch((err) => console.log(err))
+    // .catch((err) => console.log(err))
